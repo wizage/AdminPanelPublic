@@ -1,0 +1,14 @@
+# this is an auto generated file. This will be overwritten
+mutation CreateAnswer($input: CreateAnswerInput!) {
+  createAnswer(input: $input) {
+    id
+    username
+  }
+}
+mutation UpdateAnswer($input: UpdateAnswerInput!) {
+  updateAnswer(input: $input) {
+    id
+    username
+    answer
+  }
+}
